@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    width: auto;
+}
+
+.MI_color {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    float:left;
+    padding-left: 50px;
+}
+
+.health_color {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #59b300;
+    float: left;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.meals {
+    padding: 0 20px;
+    font-size: 20px;
+    justify-content: flex-end;
+
+}
+
+.main_body {
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.food_discription {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.discription {
+    font-size: large;
+
+}
+
+.browse {
+    font-size: 25px;
+    
+}
+
+.food_images {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.pasta_salad {
+    width: 350px;
+    height: 500px;
+    padding-left: 10px;
+
+}
+
+.shrimp_img {
+    width: 350px;
+    height: 500px;
+    padding-left: 10px;
+}
+
+.apple_breakfast {
+    width: 350px;
+    height: 500px;
+    padding-left: 10px;
+}
