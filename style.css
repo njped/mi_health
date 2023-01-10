@@ -6,7 +6,6 @@ body {
 #nav_bar {
     background-color: white;
     padding: 10px;
-    border: 1px solid black;
     display: flex;
     width: auto;
 }
@@ -30,27 +29,27 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .meals {
     padding: 0 20px;
     font-size: 20px;
-    justify-content: flex-end;
 
 }
 
 .main_body {
     background-color: rgb(218, 218, 218);
     display: flex;
-    width: auto;
-    height: auto;
+    float: left;
+    padding-left: 65px;
 }
 
 .food_discription {
-    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -76,9 +75,11 @@ h1 {
 .pasta_salad {
     width: 350px;
     height: 500px;
-    padding-left: 10px;
-
+    padding: 10px 10px 10px 20px;
+    position: relative;
+    text-align: center;
 }
+
 
 .shrimp_img {
     width: 350px;
@@ -90,4 +91,12 @@ h1 {
     width: 350px;
     height: 500px;
     padding-left: 10px;
+}
+.taste {
+    background-color: white;
+}
+
+.meal_time {
+    background-color: #65bb0f;
+
 }
